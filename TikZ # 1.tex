@@ -1,0 +1,88 @@
+\documentclass[12pt, a4paper]{article}
+ 
+\usepackage[left=1in, right=1in]{geometry}
+\usepackage{tikz}
+
+
+\begin{document}
+	
+	\begin{center} 
+		\textbf{{\Large WPG\\\vspace{0.15cm}TikZ Basic to Advanced\\\vspace{0.15cm}Tutorial \# 01}}
+	\end{center}	 	 
+	\hrule
+	\bigskip 
+
+ 	\tikz \draw(0pt, 0pt) -- (100pt, 50pt);
+ 	 	
+ 	\vspace{1cm}
+ 	
+ 	\tikz \fill[orange] (1ex,1ex) circle (3ex);
+	
+	\vspace{1cm}
+	
+	\begin{tikzpicture}
+		\draw (0,0) -- (5, 0);
+	\end{tikzpicture}
+	
+	\vspace{1cm}
+	
+	
+	\begin{tikzpicture}
+		\draw (2,0) -- (2, 5);
+	\end{tikzpicture}
+	
+	\vspace{1cm}
+		
+	\begin{tikzpicture}
+		\draw (0,0) -- (5, 0);
+		
+		\draw (0,1) -- (5, 1);
+	\end{tikzpicture}
+	
+	\vspace{1cm}
+	
+	\begin{tikzpicture}
+		\draw (0,0) -- (5, 0) (0,1) -- (5, 1);
+	\end{tikzpicture}
+	
+	\vspace{1cm}
+	
+	\begin{tikzpicture}
+		\draw 	(0,0) -- (5, 0) 
+				(2.5, 2.5) -- (2.5, -2.5);
+	\end{tikzpicture}
+	
+	\vspace{1cm}
+	
+	\begin{tikzpicture}
+		\draw 	(0,0) -- (5, 5) 
+				(0, 5) -- (5, 0);
+	\end{tikzpicture}
+	
+	\vspace{1cm}
+	
+	\begin{tikzpicture}
+		\draw (0,0) -- (5, 0)
+					-- (5, 5) 
+					-- (0, 5) 
+					-- cycle;
+	\end{tikzpicture}
+		
+	\vspace{1cm}
+	
+	\begin{tikzpicture}
+		\draw (0,0) rectangle (5, 5);
+	\end{tikzpicture}
+		
+	\vspace{1cm}
+	
+	\begin{tikzpicture}
+		\draw (0,0) circle [radius = 3];
+	\end{tikzpicture}
+	
+	
+	
+	
+	
+	
+\end{document}
